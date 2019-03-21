@@ -1,13 +1,13 @@
 def create_an_empty_array
-  []
+  family = []
 end
 
 def create_an_array
-  ["mother", "father", "daughter", "son"]
+  family = ["mother", "father", "daughter", "son"]
 end
 
 def add_element_to_end_of_array(array, element)
-
+  family.push("aunt")
 end
 
 def add_element_to_start_of_array(array, element)
